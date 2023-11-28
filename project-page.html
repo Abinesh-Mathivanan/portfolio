@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/uikit.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/b.ico" type="image/x-icon">
+    <script src="assets/js/uikit.js"></script>
+    <script src="assets/js/uikit-icons.js"></script>
+    <title>Projects</title>
+    <style>
+        .uk-card-body {
+          display: flex;
+          align-items: center;
+        }
+
+        .publication-image {
+          margin-right: 20px;
+          max-width: 150px;
+          height: auto;
+          border-radius: 10px;
+        }
+
+        h4 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+          h4 {
+            font-size: 1.2rem;
+          }
+
+          p {
+            font-size: 0.9rem;
+          }
+
+          .publication-image {
+            margin-right: 20px;
+            max-width: 80px;
+            height: auto;
+         }
+        }
+      </style>
+
+</head>
+<body class="scroll-container">
+    <section id="publications" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+        <div class="uk-flex uk-flex-between">
+            <div>
+                <h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+                <p class="uk-margin-xlarge-left about-me">>Projects I've been working on</p>
+            </div>
+            <!-- See More Button -->
+            <div class="uk-margin-right">
+                <a href="index.html"><img src="assets/img/reverse.png"/ style="width: 110px; height: 110px; margin-right: 85px;"></a>
+            </div>
+        </div>
+        <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <img src="assets/img/muffin-hub.png" alt="Image 1" class="publication-image">
+                <div>
+                    <h4>Muffin Hub</h4>
+                    <p style="color: rgb(161, 165, 168);">Muffin Hub is where you can find some cool stuff, including exploit source codes, malware, viruses, and other hacking-related goodies.</p>
+                    <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://github.com/Abinesh-Mathivanan/muffin-hub">
+                        <span uk-icon="icon: link"></span> Github repo
+                    </a>
+                </div>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body" style="display: flex; align-items: center;">
+                <img src="assets/img/ivy-co.png" alt="Image 2" class="publication-image">
+                <div>
+                    <h4>Ivy Connection</h4>
+                    <p style="color: rgb(161, 165, 168);">Ivy Connection is a Python based LinkedIn automation tool designed to connect with Ivy League university students</p>
+                    <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://github.com/Abinesh-Mathivanan/ivy-connection">
+                        <span uk-icon="icon: link"></span> Github repo
+                    </a>
+                </div>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <img src="assets/img/chess.png" alt="Image 4" class="publication-image">
+                <div>
+                    <h4>Neural Chess Engine using Python</h4>
+                    <p style="color: rgb(161, 165, 168);">This is a simple chess engine that uses a neural network trained on 23 million board + move pairs extracted from over 800,000 historical games</p>
+                    <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://github.com/Abinesh-Mathivanan/Neural-Chess-Engine">
+                        <span uk-icon="icon: link"></span> Github repo
+                    </a>
+                </div>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <img src="assets/img/chatgpt.png" alt="Image 3" class="publication-image">
+                <div>
+                    <h4>ChatGPT + Google Sheet</h4>
+                    <p style="color: rgb(161, 165, 168);">Integrate ChatGPT responses directly into Google Sheets using the OpenAI API and Google Apps Script.
+                    </p>
+                    <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://github.com/Abinesh-Mathivanan/gpt_integration">
+                        <span uk-icon="icon: link"></span> Github repo
+                    </a>
+                </div>
+            </div>
+            <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+                <img src="assets/img/quantum.jpg" alt="Image 2" class="publication-image">
+                <div>
+                    <h4>Quantum Cryptography using BB84 Protocol</h4>
+                    <p style="color: rgb(161, 165, 168);">Implementation of the BB84 Quantum Key Distribution Protocol using Qiskit</p>
+                    <a class="uk-button-text uk-text-decoration-none" target="_blank" href="https://github.com/Abinesh-Mathivanan/quantum-key-distribution">
+                        <span uk-icon="icon: link"></span> Github repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
