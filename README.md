@@ -1,5 +1,3 @@
-# Portfolio Website Readme
-
 ## Project Overview
 
 This project is a personal portfolio website showcasing my skills, projects, and experience.
@@ -9,7 +7,7 @@ This project is a personal portfolio website showcasing my skills, projects, and
 - **HTML** 
 - **CSS (with UI Kit)** 
 - **JavaScript**
-- 
+
 ## Running the Project Locally
 
 To run the project locally, follow these steps:
