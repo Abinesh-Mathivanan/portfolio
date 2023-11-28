@@ -14,12 +14,12 @@ To run the project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Abinesh-Mathivanan/portfolio.git
    ```
 
 2. **Open the Project:**
    ```
-   cd your-portfolio
+   cd portfolio
    ```
 
 3. **Launch in a Browser:**
