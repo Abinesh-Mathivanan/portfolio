@@ -1,0 +1,78 @@
+/* Home - Page */
+
+html{
+    font-family: IBM Plex Mono;
+}
+
+.about-me{
+    color: rgb(161, 165, 168);
+}
+
+.navbar-container {
+    transition: transform 0.3s ease-in-out;
+}
+
+a.uk-button-text:hover {
+  text-decoration: none;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+}
+
+.scroll-container {
+    height: 70%;
+    overflow-y: scroll;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .scroll-container::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  .binary-text {
+    font-size: 24px;
+    color: white;
+    white-space: pre-line;
+  }
+
+  .publication-image {
+    margin-right: 20px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h4 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    .publication-image {
+      margin-right: 20px;
+      max-width: 80px;
+      height: auto;
+    }
+  }
+
+  /* Project - list */
+
